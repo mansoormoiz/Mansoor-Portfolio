@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contact Form Email Backend
+
+To enable email notifications from the contact form, a simple Node.js backend using Express and Nodemailer is provided.
+
+### Setup
+1. Install backend dependencies:
+   ```bash
+   cd backend
+   npm install
+   ```
+2. Create a `.env` file in the `backend` folder with the following variables:
+   ```env
+   EMAIL_USER=your_gmail_address@gmail.com
+   EMAIL_PASS=your_gmail_app_password
+   EMAIL_TO=your_destination_email@gmail.com
+   ```
+   - For Gmail, you must use an App Password (not your main password).
+
+3. Start the backend server:
+   ```bash
+   npm start
+   # or from the root:
+   npm run backend
+   ```
+
+### Usage
+- The frontend will POST to `/api/contact` with the form data.
+- The backend will send you an email with the details.
