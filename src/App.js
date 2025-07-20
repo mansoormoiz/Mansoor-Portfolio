@@ -393,7 +393,7 @@ export default function App() {
           <button className="text-white/80 hover:text-white transition font-medium text-lg">Home</button>
           <a href="#about" className="text-white/80 hover:text-white transition font-medium text-lg">About</a>
           <a href="#services" className="text-white/80 hover:text-white transition font-medium text-lg">Services</a>
-          <a href="#work" className="text-white/80 hover:text-white transition font-medium text-lg">Work</a>
+          <a href="#portfolio" className="text-white/80 hover:text-white transition font-medium text-lg">Work</a>
           <a href="#calculator" className="text-white/80 hover:text-white transition font-medium text-lg">Calculator</a>
           <a href="#contact" className="text-white/80 hover:text-white transition font-medium text-lg">Contact</a>
           <button className="ml-6 px-6 py-2 rounded-lg bg-white/20 hover:bg-white/30 border border-white/30 text-white font-semibold shadow transition backdrop-blur text-lg" onClick={handleScrollToContact}>Get a Quote</button>
@@ -404,7 +404,7 @@ export default function App() {
             <button className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>Home</button>
             <a href="#about" className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>About</a>
             <a href="#services" className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>Services</a>
-            <a href="#work" className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>Work</a>
+            <a href="#portfolio" className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>Work</a>
             <a href="#calculator" className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>Calculator</a>
             <a href="#contact" className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>Contact</a>
             <button className="mt-2 px-6 py-2 rounded-lg bg-cyan-600 hover:bg-cyan-700 text-white font-semibold shadow transition text-lg" onClick={(e) => { setNavOpen(false); handleScrollToContact(e); }}>Get a Quote</button>
