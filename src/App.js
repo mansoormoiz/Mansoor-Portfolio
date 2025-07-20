@@ -193,37 +193,37 @@ const groupedServices = [
   {
     group: 'Web Development',
     subServices: [
-      { label: 'Basic Website', price: 500 },
-      { label: 'E-commerce Site', price: 1200 },
-      { label: 'Custom Web App', price: 2000 },
-      { label: 'Website Design', price: 800 },
-      { label: 'Monthly Maintenance', price: 150 },
+      { label: 'Basic Website', price: 100 },
+      { label: 'E-commerce Site', price: 250 },
+      { label: 'Custom Web App', price: 500 },
+      { label: 'Website Design', price: 50 },
+      { label: 'Monthly Maintenance', price: 10 },
     ],
   },
   {
     group: 'Workflow Automation',
     subServices: [
-      { label: 'Database Syncing', price: 600 },
-      { label: 'Process Automation', price: 800 },
-      { label: 'Custom Automation', price: 1200 },
-      { label: 'Automation Support', price: 200 },
+      { label: 'Database Syncing', price: 100 },
+      { label: 'Process Automation', price: 100 },
+      { label: 'Custom Automation', price: 150 },
+      { label: 'Automation Support', price: 20 },
     ],
   },
   {
     group: 'AI Integration',
     subServices: [
-      { label: 'AI Chatbot', price: 900 },
-      { label: 'Monthly AI Analytics', price: 300 },
-      { label: 'AI Integration', price: 1500 },
+      { label: 'AI Chatbot', price: 100 },
+      { label: 'Monthly AI Analytics', price: 75 },
+      { label: 'AI Integration', price: 50 },
     ],
   },
   {
     group: 'Branding',
     subServices: [
-      { label: 'Logo Design', price: 400 },
-      { label: 'Brand Strategy', price: 600 },
-      { label: 'Visual Identity', price: 800 },
-      { label: 'Marketing Materials', price: 500 },
+      { label: 'Logo Design', price: 30 },
+      { label: 'Brand Strategy', price: 75 },
+      { label: 'Visual Identity', price: 75 },
+      { label: 'Marketing Materials', price: 50 },
     ],
   },
 ];
