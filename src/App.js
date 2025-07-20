@@ -186,20 +186,7 @@ const serviceIcons = {
   'AI Integration': '🧠',
 };
 
-// Pricing logic data
-const serviceOptions = [
-  { label: 'Website Building', base: 1200 },
-  { label: 'Chatbot Building', base: 900 },
-  { label: 'Website Designing', base: 800 },
-  { label: 'Branding', base: 700 },
-  { label: 'Workflow Automation', base: 1000 },
-  { label: 'AI Integration', base: 1500 },
-];
-const complexityOptions = [
-  { label: 'Basic', multiplier: 1 },
-  { label: 'Standard', multiplier: 1.4 },
-  { label: 'Advanced', multiplier: 2 },
-];
+// Pricing logic data - removed unused variables
 
 // Grouped services with sub-services and prices
 const groupedServices = [
@@ -403,7 +390,7 @@ export default function App() {
         </button>
         {/* Desktop nav links */}
         <div className="hidden lg:flex items-center gap-8">
-          <a href="#" className="text-white/80 hover:text-white transition font-medium text-lg">Home</a>
+          <button className="text-white/80 hover:text-white transition font-medium text-lg">Home</button>
           <a href="#about" className="text-white/80 hover:text-white transition font-medium text-lg">About</a>
           <a href="#services" className="text-white/80 hover:text-white transition font-medium text-lg">Services</a>
           <a href="#work" className="text-white/80 hover:text-white transition font-medium text-lg">Work</a>
@@ -414,7 +401,7 @@ export default function App() {
         {/* Mobile nav links (dropdown) */}
         {navOpen && (
           <div className="lg:hidden absolute top-full left-0 w-full bg-white/90 backdrop-blur-md border-b border-white/20 flex flex-col items-center gap-4 py-6 z-50 animate-fade-in">
-            <a href="#" className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>Home</a>
+            <button className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>Home</button>
             <a href="#about" className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>About</a>
             <a href="#services" className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>Services</a>
             <a href="#work" className="text-[#0F172A] hover:text-cyan-600 transition font-semibold text-lg" onClick={() => setNavOpen(false)}>Work</a>
