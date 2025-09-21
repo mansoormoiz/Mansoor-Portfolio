@@ -54,13 +54,9 @@ export default function MacbookMockup() {
   const screenW = 500;
   const screenH = 280;
 
-  // Subtle offset for visual balance
-  // Responsive offset: more left on desktop, default on mobile/tablet
-  const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 1024;
-  const leftOffset = isDesktop ? 2 : 30; // move left by 30px on desktop, left by 10px on mobile
-  const topOffset = 10;   // move down by 10px
-
   // Responsive card sizing for mobile
+  const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 1024;
+
   const cardStyle = isDesktop
     ? {
         letterSpacing: 1,
@@ -69,8 +65,8 @@ export default function MacbookMockup() {
         minWidth: 420,
         maxWidth: 520,
         position: 'absolute',
-        top: `calc(50% + ${topOffset}px)`,
-        left: `calc(50% + ${leftOffset}px)`,
+        top: '50%',
+        left: '50%',
         transform: 'translate(-50%, -50%)',
         pointerEvents: 'auto',
       }
